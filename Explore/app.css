@@ -1,0 +1,274 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+section{
+    margin: 0;
+    height: 1000px;
+    width: 100%;
+}
+nav{
+    padding-top: 20px;
+    display: flex;
+    color: white;
+    background-color: rgb(48, 46, 46);
+    height: 70px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    transition: background-color 10s;
+}
+nav:hover{
+    background-color: skyblue;
+}
+#up{
+    color: white;
+    transform: translateX(730px);
+    position: fixed;
+    text-decoration: none;
+    border: solid 2px rgb(48, 46, 46);
+    padding: 5px 15px 8px 15px;
+    border-radius: 50%;
+    background-color: rgb(48, 46, 46);
+    opacity: 0.8;
+}
+#gtext{
+    margin-left: 80px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 25px;
+    transition: color 10s;
+}   #gtext:hover{ color:rgb(22, 47, 121);}
+#google{
+    transform: translateY(8px);
+    margin-left: 10px;
+    border: solid 3px black;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+}
+#google:focus{
+    border-color: cornflowerblue;
+}
+#go{
+    transform: translateY(8px);
+    font-family: 'Poppins', sans-serif;
+    border: solid 1.5px skyblue;
+    border-radius: 50%;
+    color: skyblue;
+    background-color: rgb(48, 46, 46);
+    transition: all 0.25s;
+}
+#go:hover{
+    color: #023e8a;
+    border-color: #023e8a;
+    box-shadow: 0 0.5em 0.5em -0.4em #023e8a;
+    transform: translateY(7px);
+    cursor: pointer;
+}
+#go:focus{
+    border-color: cornflowerblue;
+}
+#ytlogo{
+    margin-left: 700px;
+    padding: 2px 12px;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    border: solid 2px red;
+    border-radius: 8px / 6px;
+    transition: all 0.25s;
+    transform: translateY(-7px);
+}
+#ytlogo:hover{
+    background-color: rgb(210, 11, 11);
+    border-color: rgb(210, 11, 11);
+    cursor: pointer;
+}
+#ytin{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    transition: color 10s;
+} #ytin:hover{ color: black;}
+sup{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    margin-left: 2px;
+    color: lightgrey;
+}
+#ytsearch{
+    border: solid 3px black;
+    margin-left: 10px;
+    margin-right:0;
+    transform: translateY(6px);
+    background-color: black;
+    color: white;
+}
+#ytseacrh:focus{
+    border-color: cornflowerblue;
+}
+
+#ytgo{
+    margin:0;
+    transform: translateY(6px);
+    border: solid 2px rgb(63, 62, 62);
+    color: honeydew;
+    background-color: rgb(63, 62, 62);
+    transition: all 0.25s;
+}
+#ytgo:hover{
+    cursor: pointer;
+    color: grey;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+#einstein{
+    padding: 25px;
+    margin: 30px;
+    border: solid 1px black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100px;
+    height: 500px;
+    width: 640px;
+    border-radius: 35px;
+    background-image: url(https://images.unsplash.com/photo-1510924403566-fb83d71dc603?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    color: white;
+    transition: all 0.5s;
+}#einstein:hover{ cursor:grab; font-size: 101px; width: 660px; height: 520px; margin: 10px;}
+#edison{
+    padding: 25px;
+    margin: 30px;
+    border: solid 1px black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 65px;
+    height: 500px;
+    width: 640px;
+    border-radius: 35px;
+    background-image: url(https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    color: white;
+    transition: all 0.5s;
+}#edison:hover{ cursor:grab; font-size: 68px; width: 660px; height: 520px; margin: 10px;}
+#curie{
+    padding: 25px;
+    margin: 30px;
+    border: solid 1px black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 75px;
+    height: 500px;
+    width: 640px;
+    border-radius: 35px;
+    background-image: url(https://images.unsplash.com/photo-1641001153236-5cb3aba3c245?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+    color: white;
+    transition: all 0.5s;
+}#curie:hover{ cursor:grab; font-size: 78px; width: 660px; height: 520px; margin: 10px;}
+#heinlein{
+    padding: 25px;
+    margin: 30px;
+    border: solid 1px black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 90px;
+    height: 500px;
+    width: 640px;
+    border-radius: 35px;
+    background-image: url(https://images.unsplash.com/photo-1641113994135-a9f230b1f9b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    color: hotpink;
+    transition: all 0.5s;
+}#heinlein:hover{ cursor:grab; font-size: 94px; width: 660px; height: 520px; margin: 10px;}
+
+@media (max-width: 1500px) and (min-width: 1200px){
+    #ytlogo{
+        margin-left: 400px;
+    }
+}
+@media (max-width: 1200px) and (min-width: 600px){
+    nav{
+        flex-direction: column;
+        align-items: center;
+        height: 200px;
+    }
+    #ytlogo{
+        margin-left: 0;
+    }
+    #up{
+        transform: translateX(0);
+    }
+    #google{
+        margin-bottom: 30px;
+    }
+    #gtext{
+        margin-left: 0;
+    }
+}
+@media (max-width: 600px){
+    body{
+        background-color: skyblue;
+    }
+    main{
+        flex-direction: column;
+        align-items: center;
+    }
+    #einstein{
+        width: 280px;
+        height: 250px;
+        font-size: 40px;
+        margin: 10px
+    }#einstein:hover{ font-size: 43px; width: 285px; height: 255px; margin: 5px;}
+    #edison{
+        width: 280px;
+        height: 250px;
+        font-size: 30px;
+        margin: 10px;
+    }#edison:hover{ font-size: 32px; width: 285px; height: 255px; margin: 5px;}
+    #curie{
+        width: 280px;
+        height: 250px;
+        font-size: 35px;
+        margin: 10px;
+    }#curie:hover{ font-size: 38px; width: 285px; height: 255px; margin: 5px;}
+    #heinlein{
+        width: 280px;
+        height: 400px;
+        font-size: 45px;
+        margin: 10px;
+    }#heinlein:hover{ font-size: 48px; width: 285px; height: 405px; margin: 5px;}
+    nav{
+        flex-direction: column;
+        align-items: center;
+        height: 150px;
+        background-color:rgb(22, 47, 121)
+    }
+    #up{
+        transform: translateX(0) scale(0.8);
+    }
+    #gtext{
+        font-size: 20px;
+    }
+    #ytlogo{
+        transform: scale(0.8) translateY(-5px);
+        margin-left: 0;
+    }
+    #ytin{
+        font-size: 20px;
+    }
+    #ytsearch{
+        transform: scale(0.8);
+    }
+    sup{
+        font-size: 8px;
+    }
+    #ytgo{
+        transform: scale(0.8) translateX(-25px);
+    }
+    #google{
+        margin-bottom: 10px;
+        transform: scale(0.8);
+    }
+    #go{
+        transform: scale(0.8) translateX(-25px);
+        margin-left: 0;
+    } #go:hover{ transform: translateY(0) translateX(-20px) scale(0.8);}
+    #gtext{
+        margin-left: 0;
+    }
+}
